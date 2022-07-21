@@ -23,7 +23,7 @@ HOME_MENU (){
     echo "$SERVICE_ID) $SERVICE_NAME"
   done
   # Ask to pick service
-  read -p "Your choice: " SERVICE_ID_SELECTED
+  read SERVICE_ID_SELECTED
 
   # If not a number
   if [[ ! $SERVICE_ID_SELECTED =~ ^[0-9]+$ ]]
